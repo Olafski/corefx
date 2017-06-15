@@ -1,9 +1,20 @@
+<<<<<<< HEAD
 syntax: glob
 
 ### VisualStudio ###
 
 # Tool Runtime Dir
 /[Tt]ools/
+=======
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Visual Studio Code
+.vscode
+>>>>>>> upstream/master
 
 # User-specific files
 *.suo
@@ -26,6 +37,7 @@ msbuild.log
 msbuild.err
 msbuild.wrn
 
+<<<<<<< HEAD
 # Cross building rootfs
 cross/rootfs/
 cross/android-rootfs/
@@ -271,3 +283,7 @@ Session.vim
 # Private test configuration and binaries.
 config.ps1
 **/IISApplications
+=======
+# Visual Studio 2015
+.vs/
+>>>>>>> upstream/master
